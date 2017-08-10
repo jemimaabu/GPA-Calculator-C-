@@ -41,7 +41,7 @@ namespace GP_Calculator
             {
                 Course1 = Unit1 * 0;
             }
-
+//This is really the whole basis of the code. Everything else is a bunch of repitition because I am unable to grasp the use of classes and whatnot//
             Console.Write("Course = "); Console.WriteLine(Course1);
             double Score2;
             Console.Write("Score 2 : ");
@@ -338,7 +338,7 @@ namespace GP_Calculator
             {
                 Course10 = Unit10 * 0;
             }
-
+//let's just assume everyone has a maximum of 10 courses hmm
             Console.Write("Course = "); Console.WriteLine(Course10);
 
             double Carryover;
@@ -383,7 +383,7 @@ namespace GP_Calculator
                 }
 
                 Console.Write("Course = "); Console.WriteLine(Carryover);
-            
+            // I don't even know if this runs 
 
 
             double TotalUnits = Unit1 + Unit2 + Unit3 + Unit4 + Unit5 + Unit6 + Unit7 + Unit8 + Unit9 + Unit10 + Unit;
@@ -393,7 +393,8 @@ namespace GP_Calculator
             double GPA = TotalScore / TotalUnits;
             Console.Write("Grade Point Average = "); Console.WriteLine(GPA);
             Console.WriteLine("");
-
+// and finally we get to the end
+            
             if (GPA >= 4.5)
             { Console.WriteLine("Congratulations! You're on a First Class"); }
             else if (GPA >= 3.5)
